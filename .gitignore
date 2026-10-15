@@ -1,0 +1,24 @@
+# Local operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor settings and backups
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files; keep sanitized examples shareable
+.env
+.env.*
+!.env.example
+
+# Temporary output and logs
+*.tmp
+*.log
+tmp/
+.cache/
+__pycache__/
+*.py[cod]
