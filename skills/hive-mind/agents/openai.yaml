@@ -1,0 +1,4 @@
+interface:
+  display_name: "HiveMind"
+  short_description: "Coordinate specialist agents around a shared plan"
+  default_prompt: "Use $hive-mind to coordinate specialist agents, complete my task, and verify the combined result."
