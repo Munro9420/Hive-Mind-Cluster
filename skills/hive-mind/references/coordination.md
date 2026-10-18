@@ -22,6 +22,10 @@ Use statuses such as pending, active, blocked, completed, and cancelled. For sub
 
 ```text
 Task ID and role:
+Display task name:
+Specific work steps:
+Plan ownership: separate agent plan, or progress reports to the coordinator's shared plan.
+Progress reports: step started, completed work with evidence, blockers, and final status.
 Outcome you own:
 Context and inputs:
 Constraints and dependencies:
