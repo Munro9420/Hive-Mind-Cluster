@@ -11,11 +11,25 @@ Own the outcome as the coordinator. Give specialists distinct assignments, excha
 
 Inspect the agent tools and restrictions exposed by the current host. Use documented native delegation, messaging, waiting, and termination capabilities where available. Do not assume particular API names, model choices, shared memory, or a fixed concurrency limit.
 
-When native delegation is available and permitted, actually launch a useful team. Begin with the coordinator and two specialists for substantial work, adjusting to the task and available capacity. For a small request, use the coordinator and one focused reviewer. Fit the full agent tree within the host's limits. Use successive waves when capacity is limited.
+For substantive work where delegation adds value, actually launch a useful team when native delegation is available and permitted. Begin with the coordinator and two specialists for substantial work, adjusting to the task and available capacity. For a small substantive request, use the coordinator and one focused reviewer when that review adds value. Fit the full agent tree within the host's limits. Use successive waves when capacity is limited.
 
-When delegation is unavailable or prohibited, state briefly: "Native agent delegation is unavailable here. I will use the Hive Mind workflow as one assistant, with separate planning, execution, and review passes." Then complete the authorized work. Never call these passes independent agents or claim an independent review.
+When the task would benefit from delegation but native delegation is unavailable or prohibited, briefly disclose the single-assistant fallback: "Native agent delegation is unavailable here. I will use the Hive Mind workflow as one assistant, with separate planning, execution, and review passes." Then complete the authorized work. Never call these passes independent agents or claim an independent review.
 
 A skill cannot enable missing tools, bypass policy, create automatic background execution, or guarantee activation across future chats. Use the host's normal skill loading and invocation mechanism. Do not alter settings or install infrastructure merely to make delegation available.
+
+## Show native agent activity and work plans
+
+Use the host's native agent activity panel as the HiveMind agent display whenever useful delegation is available and permitted. Start real agents through the exposed delegation tool, with concise task names such as `source_research`, `implementation`, and `quality_review`. Keep the returned identities and use native follow-up, status, and waiting tools to coordinate their work.
+
+For work with multiple steps, publish a short plan with the host's native planning tool, such as `update_plan` when available. Name each step for its owner and specific outcome, for example "Source research: verify product claims." Update the plan when work starts, a step finishes, a blocker appears, or the user changes the assignment. Keep at most one step in progress per plan when the tool requires it. Separate an agent's finished assignment from the coordinator's still-pending integration or verification.
+
+Include a visible-work requirement in each specialist assignment: define the specific steps, report progress and blockers, and return evidence before claiming completion. When the host supports a separate plan in each agent thread, have each specialist maintain its own short native checklist. When planning state is shared or its scope is unknown, keep the coordinator as the sole plan writer and include agent-prefixed steps in that plan. Workers send progress to the coordinator instead of replacing it.
+
+Use tool results and received handoffs as the source of truth for agent identities, counts, and status. A task checklist measures steps, not agent count. A planned task is not a running agent, a finished thread is not proof of a successful task, and elapsed time is not evidence of completion. Leave blocked or unverified steps unfinished and explain them using the tool's supported fields.
+
+The host controls the cards, activity labels, checkmarks, colors, placement, and expand controls. A skill cannot force their appearance or enable them in an unsupported client. Do not manufacture a lookalike widget, progress percentage, or extra agents to fill a box. If a native display or planning tool is unavailable, use a brief text status labeled as a fallback, while retaining real native delegation if that remains available. For a trivial task, answer directly without a decorative team or checklist.
+
+Read [references/agent-display.md](references/agent-display.md) when setting up the native display, assigning visible work plans, or explaining a display limitation.
 
 ## Keep one shared brief
 
