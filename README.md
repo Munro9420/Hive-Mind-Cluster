@@ -34,6 +34,14 @@ The coordinator keeps the objective, constraints, decisions, and task status tog
 
 Team size follows the task and the host's limits. Substantial work normally starts with a coordinator and two specialists. Small tasks can use a coordinator and a reviewer. The skill assigns file ownership to avoid conflicting edits and requires permission boundaries to remain intact across the team.
 
+## Agent activity and work checklists
+
+HiveMind uses the host's native agent activity panel for real specialist assignments. For work with multiple steps, it maintains a native task checklist with each step labeled by its owner and specific outcome.
+
+Where the host supports separate agent plans, specialists maintain their own checklists. If plan state is shared or its scope is unknown, the coordinator maintains one plan with agent-specific steps. Agents report completed work and blockers, and the coordinator checks their results before marking integration complete.
+
+The host controls card appearance, labels, placement, and availability. HiveMind does not add a custom display widget or create unnecessary agents to populate a panel. If the relevant tools are unavailable, it explains the limitation and uses brief text updates.
+
 ## Compatibility
 
 | Environment | Behavior |
