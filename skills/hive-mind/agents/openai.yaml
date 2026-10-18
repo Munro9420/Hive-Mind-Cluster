@@ -1,4 +1,4 @@
 interface:
   display_name: "HiveMind"
-  short_description: "Coordinate specialist agents around a shared plan"
-  default_prompt: "Use $hive-mind to coordinate specialist agents, complete my task, and verify the combined result."
+  short_description: "Coordinate agents and show task progress"
+  default_prompt: "Use $hive-mind to complete my task with useful native agents, show their specific work in supported activity panels and checklists, and verify the combined result."
